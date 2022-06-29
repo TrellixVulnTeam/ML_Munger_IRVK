@@ -19,7 +19,7 @@ class LinkSearch:
         self.window.mainloop()
 
     def reset(self, url = test_link):
-        self.clear()
+        self.clear()fd
         print("test link: ", test_link)
         self.pick_links(url)
         self.create_buttons()
